@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    
+}
+body:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: radial-gradient(circle at 0 0, #BCF5A9 ,#E6E6E6);
+
+    opacity: 0.2;
+    z-index: -1;
+
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 5em;
+}
+h2{
+   margin-left: 60px;
+
+}
+
+    #menu{
+    width: 100%;
+    margin: auto;
+    border: 1px solid;
+    color: black;
+    padding: 0;
+    background: #181616;
+    
+    }
+    #menu li a {
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        display: block;
+
+    }
+    #menu li {
+        display: inline-block;
+        text-align: center;
+    }
+    #menu li a:hover {
+        background: #ef83;
+    }
+    header{
+        background-color: #FFC300;
+        height: 80px;
+        width: 100;
+        margin: 0px;
+        text-align: center;
+        line-height: 75px;
+        color: hsl(222, 23%, 89%);
+        position: center;}
+    .video{
+       margin: 0 auto;
+       position: center;
+       padding-top: 40px;
+       margin-left: 425px;
+       
+    }
+
+    
+ 
+    #contenedor {
+        width: 500px;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+   
+    #contenedor ul {
+        margin:  auto;
+        width: 2500;
+        position: relative;
+        list-style: none;
+        animation: slide 14s infinite alternate;
+        display: flex;
+       
+    }
+   
+         
+    @keyframes slide {
+        0%{margin-left: 0px}
+        15%{margin-left: 0px}
+        20%{margin-left: -500px}
+        35%{margin-left: -500px}
+        40%{margin-left: -1000px}
+        55%{margin-left: -1000px}
+        60%{margin-left: -1500px}
+        75%{margin-left: -1500px}
+        80%{margin-left: -2000px}
+        100%{margin-left: -2000px}
+    }     
+
+    #seccion {
+        width: 100%;
+        max-width: 2600px;
+        height: 438px;
+        display: flex;      
+        background: #FFC300 ;
+        justify-content: center;
+        margin: auto; 
+        float:left;
+        width: 100%;
+        min-height: 500px;
+        
+        color: white;
+                
+        
+    }
+    
+    .continer-seccion{
+    width: 100%;
+    margin: auto;
+    
+    color: white;
+    padding: 40px;
+    background: #181616;
+    display: flex;
+    }
+    .conteiner-seccion1 img{
+        margin-right: 500px;
+        display: flex;
+    }
+
+
+
+    #seccion img{
+        margin: auto;
+        position: relative;
+        padding: 20px;
+      
+    }
+        
+
+    .clearfix{
+	Clear: both;
+}
+
+
+    footer{
+        background: #202020 ;
+        color: white;
+        width: 100%;
+    }
+          
+    .continer-body{
+        display: flex;
+        justify-content: center;
+    }
+    .colum1{
+        max-width: 400px;
+
+    }
+    .colum1 h1{
+        font-size: 22px;
+    }
+    .colum1 p{
+        font-size: 14px;
+        color: #c7c7c7;
+        margin-top: 20px;
+    }
+    .colum2{
+        max-width: 400px;
+    }
+    .colum2 h1{
+        font-size: 22px;
+    }
+    .colum2 .row{
+        margin-top: 20px;
+        display: flex
+    }
+    .row img{
+        width: 36px;
+        height: 36px;
+        
+    }
+    .row label{
+        margin-top: 10px;
+        margin-left: 20px;
+        color: #c7c7c7;
+
+    }
+    .colum3{
+        max-width: 400px;
+        
+    }
+    .colum3 h1{
+        font-size: 22px;
+    }
+    .row2{
+        margin-top: 20px;
+        display: flex;
+        
+    }
+    .row2 img{
+        width: 36;
+        height: 36;
+
+    }
+    .row2 label{
+        margin-top: 10px;
+        margin-left: 20px;
+        max-width: 140px;
+    }
+    .container-footer{
+        width: 100%;
+        background: #101010;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .copyright{
+        color:#c7c7c7;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .information a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
